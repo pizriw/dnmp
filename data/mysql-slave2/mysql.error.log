@@ -78,3 +78,161 @@ mbind: Operation not permitted
 2021-05-20T07:57:18.686448Z 12 [System] [MY-010597] [Repl] 'CHANGE MASTER TO FOR CHANNEL '' executed'. Previous state master_host='', master_port= 3306, master_log_file='', master_log_pos= 4, master_bind=''. New state master_host='mysql_master', master_port= 3306, master_log_file='mysql-bin.000004', master_log_pos= 155, master_bind=''.
 2021-05-20T07:57:23.968201Z 13 [Warning] [MY-010897] [Repl] Storing MySQL user name or password information in the master info repository is not secure and is therefore not recommended. Please consider using the USER and PASSWORD connection options for START SLAVE; see the 'START SLAVE Syntax' in the MySQL Manual for more information.
 2021-05-20T07:57:23.978902Z 13 [System] [MY-010562] [Repl] Slave I/O thread for channel '': connected to master 'root@mysql_master:3306',replication started in log 'mysql-bin.000004' at position 155
+mbind: Operation not permitted
+2021-05-20T08:12:19.550322Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:12:19.550408Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:12:19.550477Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:12:20.578735Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:12:20.579654Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:12:20.580277Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:12:20.580843Z 1 [ERROR] [MY-012270] [InnoDB] os_file_get_status() failed on './ibtmp1'. Can't determine file permissions
+2021-05-20T08:12:20.581242Z 1 [ERROR] [MY-012925] [InnoDB] Could not create the shared innodb_temporary.
+2021-05-20T08:12:20.584480Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Generic error.
+2021-05-20T08:12:20.887312Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:12:20.887864Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:12:20.888288Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:12:20.888926Z 1 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2021-05-20T08:12:20.889543Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2021-05-20T08:12:20.893913Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-05-20T08:12:20.894706Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-05-20T08:12:20.897712Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:15:18.734716Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:15:18.734796Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:15:18.734843Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:15:21.107069Z 1 [Warning] [MY-010005] [Server] Skip re-populating collations and character sets tables in read-only mode.
+2021-05-20T08:15:21.254703Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-05-20T08:15:21.273964Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-05-20T08:15:21.497600Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-20T08:15:21.563224Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-20T08:15:21.624866Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:15:21.625940Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:15:21.628815Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:15:21.631943Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:15:21.633372Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:15:21.633764Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:15:21.634415Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:15:21.663208Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:15:21.667212Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:15:21.715858Z 0 [Warning] [MY-010604] [Repl] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a slave and has his hostname changed!! Please use '--relay-log=29d1843830a8-relay-bin' to avoid this problem.
+2021-05-20T08:15:21.929790Z 4 [Warning] [MY-010897] [Repl] Storing MySQL user name or password information in the master info repository is not secure and is therefore not recommended. Please consider using the USER and PASSWORD connection options for START SLAVE; see the 'START SLAVE Syntax' in the MySQL Manual for more information.
+2021-05-20T08:15:21.933614Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-20T08:15:21.934376Z 4 [System] [MY-010562] [Repl] Slave I/O thread for channel '': connected to master 'root@mysql_master:3306',replication started in log 'mysql-bin.000004' at position 155
+2021-05-20T08:15:22.164338Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-05-20T08:18:17.287722Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:18:17.287801Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:18:17.287842Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:18:19.205827Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:18:19.206772Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:18:19.207299Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:18:19.208885Z 1 [ERROR] [MY-012270] [InnoDB] os_file_get_status() failed on './ibtmp1'. Can't determine file permissions
+2021-05-20T08:18:19.209858Z 1 [ERROR] [MY-012925] [InnoDB] Could not create the shared innodb_temporary.
+2021-05-20T08:18:19.210294Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Generic error.
+2021-05-20T08:18:19.625390Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:18:19.625953Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:18:19.626537Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:18:19.627228Z 1 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2021-05-20T08:18:19.629152Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2021-05-20T08:18:19.630301Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-05-20T08:18:19.631644Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-05-20T08:18:19.635108Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:23:05.966360Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:23:05.966435Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:23:05.966474Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:23:07.500606Z 1 [Warning] [MY-010005] [Server] Skip re-populating collations and character sets tables in read-only mode.
+2021-05-20T08:23:07.702726Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-05-20T08:23:07.719839Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-05-20T08:24:30.730923Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:24:30.731015Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:24:30.731072Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:24:32.163628Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:24:32.164164Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:24:32.164745Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:24:32.165044Z 1 [ERROR] [MY-012270] [InnoDB] os_file_get_status() failed on './ibtmp1'. Can't determine file permissions
+2021-05-20T08:24:32.165423Z 1 [ERROR] [MY-012925] [InnoDB] Could not create the shared innodb_temporary.
+2021-05-20T08:24:32.165866Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Generic error.
+2021-05-20T08:24:32.668346Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:24:32.668719Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:24:32.669167Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:24:32.669567Z 1 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2021-05-20T08:24:32.670055Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2021-05-20T08:24:32.670456Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-05-20T08:24:32.670754Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-05-20T08:24:32.674045Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:29:46.644162Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:29:46.644246Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:29:46.644293Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:29:46.649497Z 0 [Warning] [MY-010091] [Server] Can't create test file /var/lib/mysql/29d1843830a8.lower-test
+2021-05-20T08:29:46.649583Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './mysql-bin.~rec~' not found (OS errno 1 - Operation not permitted)
+2021-05-20T08:29:46.658356Z 0 [ERROR] [MY-010846] [Server] MYSQL_BIN_LOG::open_purge_index_file failed to open register file.
+2021-05-20T08:29:46.658759Z 0 [ERROR] [MY-010817] [Server] MYSQL_BIN_LOG::open_index_file failed to sync the index file.
+2021-05-20T08:29:46.659651Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-05-20T08:29:46.664042Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:33:20.276449Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:33:20.276527Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:33:20.276569Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:33:22.094141Z 1 [Warning] [MY-010005] [Server] Skip re-populating collations and character sets tables in read-only mode.
+2021-05-20T08:33:22.439684Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-20T08:33:22.467031Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-20T08:33:22.498471Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:33:22.499314Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:33:22.499975Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:33:22.500613Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:33:22.501869Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:33:22.503937Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:33:22.505189Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:33:22.528288Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:33:22.529204Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:33:22.565199Z 0 [Warning] [MY-010604] [Repl] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a slave and has his hostname changed!! Please use '--relay-log=29d1843830a8-relay-bin' to avoid this problem.
+2021-05-20T08:33:22.663128Z 4 [Warning] [MY-010897] [Repl] Storing MySQL user name or password information in the master info repository is not secure and is therefore not recommended. Please consider using the USER and PASSWORD connection options for START SLAVE; see the 'START SLAVE Syntax' in the MySQL Manual for more information.
+2021-05-20T08:33:22.667679Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-20T08:33:22.889986Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-05-20T08:33:42.709582Z 4 [ERROR] [MY-010584] [Repl] Slave I/O for channel '': error connecting to master 'root@mysql_master:3306' - retry-time: 60  retries: 1, Error_code: MY-002005
+2021-05-20T08:35:02.861854Z 4 [ERROR] [MY-010584] [Repl] Slave I/O for channel '': error connecting to master 'root@mysql_master:3306' - retry-time: 60  retries: 2, Error_code: MY-002005
+2021-05-20T08:36:22.908751Z 4 [ERROR] [MY-010584] [Repl] Slave I/O for channel '': error connecting to master 'root@mysql_master:3306' - retry-time: 60  retries: 3, Error_code: MY-002005
+2021-05-20T08:37:42.919618Z 4 [ERROR] [MY-010584] [Repl] Slave I/O for channel '': error connecting to master 'root@mysql_master:3306' - retry-time: 60  retries: 4, Error_code: MY-002005
+2021-05-20T08:38:04.074244Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:38:43.191735Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:38:43.191818Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:38:43.191861Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:38:45.444505Z 1 [Warning] [MY-010005] [Server] Skip re-populating collations and character sets tables in read-only mode.
+2021-05-20T08:38:45.721358Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-20T08:38:45.751127Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-20T08:38:45.804288Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:38:45.813505Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:38:45.815051Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:38:45.822390Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:38:45.824992Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:38:45.826734Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:38:45.827651Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:38:45.851414Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:38:45.853819Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:38:45.897633Z 0 [Warning] [MY-010604] [Repl] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a slave and has his hostname changed!! Please use '--relay-log=29d1843830a8-relay-bin' to avoid this problem.
+2021-05-20T08:38:46.157199Z 4 [Warning] [MY-010897] [Repl] Storing MySQL user name or password information in the master info repository is not secure and is therefore not recommended. Please consider using the USER and PASSWORD connection options for START SLAVE; see the 'START SLAVE Syntax' in the MySQL Manual for more information.
+2021-05-20T08:38:46.159673Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-20T08:38:46.277167Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-05-20T08:39:06.203852Z 4 [ERROR] [MY-010584] [Repl] Slave I/O for channel '': error connecting to master 'root@mysql_master:3306' - retry-time: 60  retries: 1, Error_code: MY-002005
+2021-05-20T08:40:00.791629Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:42:34.094266Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:42:34.094399Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:42:34.094446Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:42:36.327817Z 1 [Warning] [MY-010005] [Server] Skip re-populating collations and character sets tables in read-only mode.
+2021-05-20T08:42:36.615464Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-20T08:42:36.644406Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-20T08:42:36.676353Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:42:36.677856Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:42:36.678676Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:42:36.679430Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:42:36.679832Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:42:36.680241Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:42:36.680694Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:42:36.713725Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:42:36.714641Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2021-05-20T08:42:36.794700Z 0 [Warning] [MY-010604] [Repl] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a slave and has his hostname changed!! Please use '--relay-log=7c4d041ba85d-relay-bin' to avoid this problem.
+2021-05-20T08:42:37.179632Z 0 [ERROR] [MY-010544] [Repl] Failed to open the relay log './29d1843830a8-relay-bin.000007' (relay_log_pos 4).
+2021-05-20T08:42:37.198429Z 0 [ERROR] [MY-011059] [Repl] Could not find target log file mentioned in relay log info in the index file './7c4d041ba85d-relay-bin.index' during relay log initialization.
+2021-05-20T08:42:37.212291Z 0 [ERROR] [MY-010426] [Repl] Slave: Failed to initialize the master info structure for channel ''; its record may still be present in 'mysql.slave_master_info' table, consider deleting it.
+2021-05-20T08:42:37.222536Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2021-05-20T08:42:37.229580Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-20T08:42:37.412949Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-05-20T08:44:00.565883Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.

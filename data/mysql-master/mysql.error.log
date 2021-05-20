@@ -120,3 +120,154 @@ mysqld: Table 'mysql.plugin' doesn't exist
 2021-05-20T00:42:46.437542Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
 2021-05-20T00:42:46.438361Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
 2021-05-20T00:42:46.453493Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+2021-05-20T08:12:23.439931Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:12:23.440847Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-20T08:12:23.440873Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:12:23.440930Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:12:24.695776Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:12:24.696770Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:12:24.697306Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:12:24.697709Z 1 [ERROR] [MY-012270] [InnoDB] os_file_get_status() failed on './ibtmp1'. Can't determine file permissions
+2021-05-20T08:12:24.699218Z 1 [ERROR] [MY-012925] [InnoDB] Could not create the shared innodb_temporary.
+2021-05-20T08:12:24.699653Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Generic error.
+2021-05-20T08:12:25.203262Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:12:25.205702Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:12:25.206362Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:12:25.207990Z 1 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2021-05-20T08:12:25.212799Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2021-05-20T08:12:25.216475Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-05-20T08:12:25.216894Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-05-20T08:12:25.224994Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:15:15.384544Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:15:15.384613Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-20T08:15:15.384634Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:15:15.384687Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+mysqld: Table 'mysql.plugin' doesn't exist
+2021-05-20T08:15:17.835529Z 0 [ERROR] [MY-010735] [Server] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2021-05-20T08:15:17.931685Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-05-20T08:15:17.948965Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-05-20T08:15:18.148772Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-05-20T08:15:18.200354Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-20T08:15:18.238786Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-20T08:15:18.240607Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2021-05-20T08:15:18.241984Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2021-05-20T08:15:18.256218Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2021-05-20T08:15:18.263179Z 0 [ERROR] [MY-010326] [Server] Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
+2021-05-20T08:15:18.269898Z 0 [Warning] [MY-010952] [Server] The privilege system failed to initialize correctly. If you have upgraded your server, make sure you're executing mysql_upgrade to correct the issue.
+2021-05-20T08:15:18.271625Z 0 [Warning] [MY-010357] [Server] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2021-05-20T08:15:18.287417Z 0 [ERROR] [MY-010353] [Server] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2021-05-20T08:15:18.357880Z 0 [Warning] [MY-010405] [Repl] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-05-20T08:15:18.370994Z 0 [ERROR] [MY-010422] [Repl] Error in checking mysql.slave_master_info repository info type of TABLE.
+2021-05-20T08:15:18.381722Z 0 [ERROR] [MY-010415] [Repl] Error creating master info: Error checking repositories.
+2021-05-20T08:15:18.383566Z 0 [ERROR] [MY-010426] [Repl] Slave: Failed to initialize the master info structure for channel ''; its record may still be present in 'mysql.slave_master_info' table, consider deleting it.
+2021-05-20T08:15:18.384739Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2021-05-20T08:15:18.389237Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-20T08:15:18.628127Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-05-20T08:18:26.945782Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:18:26.945853Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-20T08:18:26.945871Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:18:26.945925Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:18:29.771590Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:18:29.775759Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:18:29.779990Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:18:29.783437Z 1 [ERROR] [MY-012270] [InnoDB] os_file_get_status() failed on './ibtmp1'. Can't determine file permissions
+2021-05-20T08:18:29.785732Z 1 [ERROR] [MY-012925] [InnoDB] Could not create the shared innodb_temporary.
+2021-05-20T08:18:29.787953Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Generic error.
+2021-05-20T08:18:30.399867Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:18:30.404310Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:18:30.410190Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:18:30.411688Z 1 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2021-05-20T08:18:30.413150Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2021-05-20T08:18:30.415137Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-05-20T08:18:30.420965Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-05-20T08:18:30.429934Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:23:01.463136Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:23:01.463204Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-20T08:23:01.463223Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:23:01.463274Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+mysqld: Table 'mysql.plugin' doesn't exist
+2021-05-20T08:23:05.012906Z 0 [ERROR] [MY-010735] [Server] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2021-05-20T08:23:05.115530Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-05-20T08:23:05.145425Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-05-20T08:23:05.249619Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-05-20T08:23:05.308956Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-20T08:23:05.342311Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-20T08:23:05.343374Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2021-05-20T08:23:05.345581Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2021-05-20T08:23:05.346533Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2021-05-20T08:23:05.347722Z 0 [ERROR] [MY-010326] [Server] Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
+2021-05-20T08:23:05.348228Z 0 [Warning] [MY-010952] [Server] The privilege system failed to initialize correctly. If you have upgraded your server, make sure you're executing mysql_upgrade to correct the issue.
+2021-05-20T08:23:05.348893Z 0 [Warning] [MY-010357] [Server] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2021-05-20T08:23:05.350396Z 0 [ERROR] [MY-010353] [Server] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2021-05-20T08:23:05.364506Z 0 [Warning] [MY-010405] [Repl] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-05-20T08:23:05.365336Z 0 [ERROR] [MY-010422] [Repl] Error in checking mysql.slave_master_info repository info type of TABLE.
+2021-05-20T08:23:05.365962Z 0 [ERROR] [MY-010415] [Repl] Error creating master info: Error checking repositories.
+2021-05-20T08:23:05.366489Z 0 [ERROR] [MY-010426] [Repl] Slave: Failed to initialize the master info structure for channel ''; its record may still be present in 'mysql.slave_master_info' table, consider deleting it.
+2021-05-20T08:23:05.366940Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2021-05-20T08:23:05.367831Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-20T08:23:05.534034Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2021-05-20T08:24:29.448257Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:24:29.448322Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-20T08:24:29.448413Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:24:29.448469Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:24:30.216752Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:24:30.217202Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:24:30.217669Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:24:30.218048Z 1 [ERROR] [MY-012270] [InnoDB] os_file_get_status() failed on './ibtmp1'. Can't determine file permissions
+2021-05-20T08:24:30.218390Z 1 [ERROR] [MY-012925] [InnoDB] Could not create the shared innodb_temporary.
+2021-05-20T08:24:30.220302Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Generic error.
+2021-05-20T08:24:30.722759Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:24:30.723224Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:24:30.724027Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:24:30.724504Z 1 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2021-05-20T08:24:30.724933Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2021-05-20T08:24:30.726390Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-05-20T08:24:30.726840Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-05-20T08:24:30.729389Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:25:03.049214Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:25:03.049422Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-20T08:25:03.049732Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:25:03.049914Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:25:09.902963Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:25:09.906096Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:25:09.907946Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:25:09.926065Z 1 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2021-05-20T08:25:09.933181Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:25:09.958724Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:25:09.967782Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:25:09.991557Z 1 [ERROR] [MY-012270] [InnoDB] os_file_get_status() failed on './ibtmp1'. Can't determine file permissions
+2021-05-20T08:25:10.012336Z 1 [ERROR] [MY-012925] [InnoDB] Could not create the shared innodb_temporary.
+2021-05-20T08:25:10.035265Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Generic error.
+2021-05-20T08:25:10.673562Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:25:10.742754Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:25:10.786101Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:25:10.917549Z 1 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2021-05-20T08:25:10.974800Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2021-05-20T08:25:11.052118Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-05-20T08:25:11.089633Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-05-20T08:25:11.145235Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:29:44.277963Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:29:44.278029Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-20T08:29:44.278044Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:29:44.278087Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2021-05-20T08:29:44.908679Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:29:44.909113Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:29:44.909626Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:29:44.910123Z 1 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2021-05-20T08:29:44.911272Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:29:44.911754Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:29:44.912253Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:29:44.913005Z 1 [ERROR] [MY-012270] [InnoDB] os_file_get_status() failed on './ibtmp1'. Can't determine file permissions
+2021-05-20T08:29:44.913617Z 1 [ERROR] [MY-012925] [InnoDB] Could not create the shared innodb_temporary.
+2021-05-20T08:29:44.914018Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Generic error.
+2021-05-20T08:29:45.516752Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2021-05-20T08:29:45.517688Z 1 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2021-05-20T08:29:45.518207Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'stat' returned OS error 101.
+2021-05-20T08:29:45.518575Z 1 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2021-05-20T08:29:45.518939Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2021-05-20T08:29:45.519449Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-05-20T08:29:45.519931Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-05-20T08:29:45.522650Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
