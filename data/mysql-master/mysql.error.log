@@ -271,3 +271,163 @@ mysqld: Table 'mysql.plugin' doesn't exist
 2021-05-20T08:29:45.519449Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
 2021-05-20T08:29:45.519931Z 0 [ERROR] [MY-010119] [Server] Aborting
 2021-05-20T08:29:45.522650Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2021-05-20T08:58:10.119798Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T08:58:10.119868Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-20T08:58:10.119889Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T08:58:10.119934Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+mysqld: Table 'mysql.plugin' doesn't exist
+2021-05-20T08:58:12.117340Z 0 [ERROR] [MY-010735] [Server] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2021-05-20T08:58:12.150458Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-05-20T08:58:12.160791Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-05-20T08:58:12.322855Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-05-20T08:58:12.352258Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-20T08:58:12.370634Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-20T08:58:12.371798Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2021-05-20T08:58:12.372822Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2021-05-20T08:58:12.373642Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2021-05-20T08:58:12.374885Z 0 [ERROR] [MY-010326] [Server] Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
+2021-05-20T08:58:12.376695Z 0 [Warning] [MY-010952] [Server] The privilege system failed to initialize correctly. If you have upgraded your server, make sure you're executing mysql_upgrade to correct the issue.
+2021-05-20T08:58:12.378071Z 0 [Warning] [MY-010357] [Server] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2021-05-20T08:58:12.379717Z 0 [ERROR] [MY-010353] [Server] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2021-05-20T08:58:12.398594Z 0 [Warning] [MY-010405] [Repl] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-05-20T08:58:12.399261Z 0 [ERROR] [MY-010422] [Repl] Error in checking mysql.slave_master_info repository info type of TABLE.
+2021-05-20T08:58:12.399964Z 0 [ERROR] [MY-010415] [Repl] Error creating master info: Error checking repositories.
+2021-05-20T08:58:12.401079Z 0 [ERROR] [MY-010426] [Repl] Slave: Failed to initialize the master info structure for channel ''; its record may still be present in 'mysql.slave_master_info' table, consider deleting it.
+2021-05-20T08:58:12.402101Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2021-05-20T08:58:12.404100Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-20T08:58:12.634746Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+2021-05-20T09:09:28.477769Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T09:09:28.477842Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-20T09:09:28.477862Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T09:09:28.477913Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+mysqld: Table 'mysql.plugin' doesn't exist
+2021-05-20T09:09:29.976368Z 0 [ERROR] [MY-010735] [Server] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2021-05-20T09:09:30.001589Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-05-20T09:09:30.011848Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-05-20T09:09:30.153279Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-05-20T09:09:30.175375Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-20T09:09:30.198841Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-20T09:09:30.203649Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2021-05-20T09:09:30.205499Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2021-05-20T09:09:30.206344Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2021-05-20T09:09:30.208854Z 0 [ERROR] [MY-010326] [Server] Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
+2021-05-20T09:09:30.211090Z 0 [Warning] [MY-010952] [Server] The privilege system failed to initialize correctly. If you have upgraded your server, make sure you're executing mysql_upgrade to correct the issue.
+2021-05-20T09:09:30.214565Z 0 [Warning] [MY-010357] [Server] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2021-05-20T09:09:30.215424Z 0 [ERROR] [MY-010353] [Server] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2021-05-20T09:09:30.236036Z 0 [Warning] [MY-010405] [Repl] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-05-20T09:09:30.245892Z 0 [ERROR] [MY-010422] [Repl] Error in checking mysql.slave_master_info repository info type of TABLE.
+2021-05-20T09:09:30.248942Z 0 [ERROR] [MY-010415] [Repl] Error creating master info: Error checking repositories.
+2021-05-20T09:09:30.251259Z 0 [ERROR] [MY-010426] [Repl] Slave: Failed to initialize the master info structure for channel ''; its record may still be present in 'mysql.slave_master_info' table, consider deleting it.
+2021-05-20T09:09:30.253261Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2021-05-20T09:09:30.258501Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-20T09:09:30.500072Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+2021-05-20T09:21:58.051587Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-20T09:21:58.051655Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-20T09:21:58.051679Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-20T09:21:58.051725Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+mysqld: Table 'mysql.plugin' doesn't exist
+2021-05-20T09:22:00.349127Z 0 [ERROR] [MY-010735] [Server] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2021-05-20T09:22:00.369844Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-05-20T09:22:00.381222Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-05-20T09:22:00.514507Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-05-20T09:22:00.533567Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-20T09:22:00.555503Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-20T09:22:00.556614Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2021-05-20T09:22:00.557099Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2021-05-20T09:22:00.557378Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2021-05-20T09:22:00.558363Z 0 [ERROR] [MY-010326] [Server] Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
+2021-05-20T09:22:00.558891Z 0 [Warning] [MY-010952] [Server] The privilege system failed to initialize correctly. If you have upgraded your server, make sure you're executing mysql_upgrade to correct the issue.
+2021-05-20T09:22:00.559538Z 0 [Warning] [MY-010357] [Server] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2021-05-20T09:22:00.560475Z 0 [ERROR] [MY-010353] [Server] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2021-05-20T09:22:00.598972Z 0 [Warning] [MY-010405] [Repl] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-05-20T09:22:00.599507Z 0 [ERROR] [MY-010422] [Repl] Error in checking mysql.slave_master_info repository info type of TABLE.
+2021-05-20T09:22:00.600567Z 0 [ERROR] [MY-010415] [Repl] Error creating master info: Error checking repositories.
+2021-05-20T09:22:00.600927Z 0 [ERROR] [MY-010426] [Repl] Slave: Failed to initialize the master info structure for channel ''; its record may still be present in 'mysql.slave_master_info' table, consider deleting it.
+2021-05-20T09:22:00.601552Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2021-05-20T09:22:00.603101Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-20T09:22:00.982123Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+2021-05-20T09:27:05.169371Z 8 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+mbind: Operation not permitted
+2021-05-21T00:57:56.471007Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-21T00:57:56.471102Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-21T00:57:56.471125Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-21T00:57:56.471238Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+mysqld: Table 'mysql.plugin' doesn't exist
+2021-05-21T00:57:58.455444Z 0 [ERROR] [MY-010735] [Server] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2021-05-21T00:57:58.564397Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-05-21T00:57:58.585731Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-05-21T00:57:58.823763Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-05-21T00:57:58.895911Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-21T00:57:58.922908Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-21T00:57:58.926882Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2021-05-21T00:57:58.927561Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2021-05-21T00:57:58.927970Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2021-05-21T00:57:58.928754Z 0 [ERROR] [MY-010326] [Server] Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
+2021-05-21T00:57:58.929185Z 0 [Warning] [MY-010952] [Server] The privilege system failed to initialize correctly. If you have upgraded your server, make sure you're executing mysql_upgrade to correct the issue.
+2021-05-21T00:57:58.929721Z 0 [Warning] [MY-010357] [Server] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2021-05-21T00:57:58.931127Z 0 [ERROR] [MY-010353] [Server] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2021-05-21T00:57:58.940521Z 0 [Warning] [MY-010405] [Repl] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-05-21T00:57:58.941193Z 0 [ERROR] [MY-010422] [Repl] Error in checking mysql.slave_master_info repository info type of TABLE.
+2021-05-21T00:57:58.941769Z 0 [ERROR] [MY-010415] [Repl] Error creating master info: Error checking repositories.
+2021-05-21T00:57:58.942154Z 0 [ERROR] [MY-010426] [Repl] Slave: Failed to initialize the master info structure for channel ''; its record may still be present in 'mysql.slave_master_info' table, consider deleting it.
+2021-05-21T00:57:58.942566Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2021-05-21T00:57:58.943248Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-21T00:57:59.038810Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+2021-05-21T01:22:31.456693Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 11  user: 'root'.
+2021-05-21T01:24:32.777158Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-21T01:24:32.777836Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-21T01:24:32.777855Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-21T01:24:32.777915Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+mysqld: Table 'mysql.plugin' doesn't exist
+2021-05-21T01:24:35.383961Z 0 [ERROR] [MY-010735] [Server] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2021-05-21T01:24:35.421204Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-05-21T01:24:35.444337Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-05-21T01:24:35.636082Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-05-21T01:24:35.681850Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-21T01:24:35.703312Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-21T01:24:35.704307Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2021-05-21T01:24:35.705155Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2021-05-21T01:24:35.705631Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2021-05-21T01:24:35.707095Z 0 [ERROR] [MY-010326] [Server] Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
+2021-05-21T01:24:35.707650Z 0 [Warning] [MY-010952] [Server] The privilege system failed to initialize correctly. If you have upgraded your server, make sure you're executing mysql_upgrade to correct the issue.
+2021-05-21T01:24:35.708321Z 0 [Warning] [MY-010357] [Server] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2021-05-21T01:24:35.709235Z 0 [ERROR] [MY-010353] [Server] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2021-05-21T01:24:35.726654Z 0 [Warning] [MY-010405] [Repl] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-05-21T01:24:35.727506Z 0 [ERROR] [MY-010422] [Repl] Error in checking mysql.slave_master_info repository info type of TABLE.
+2021-05-21T01:24:35.728344Z 0 [ERROR] [MY-010415] [Repl] Error creating master info: Error checking repositories.
+2021-05-21T01:24:35.728853Z 0 [ERROR] [MY-010426] [Repl] Slave: Failed to initialize the master info structure for channel ''; its record may still be present in 'mysql.slave_master_info' table, consider deleting it.
+2021-05-21T01:24:35.729616Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2021-05-21T01:24:35.731373Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-21T01:24:35.902037Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+mbind: Operation not permitted
+2021-05-21T02:31:48.133783Z 8 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+mbind: Operation not permitted
+2021-05-21T03:50:34.517293Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2021-05-21T03:50:34.517852Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2021-05-21T03:50:34.517878Z 0 [Warning] [MY-010915] [Server] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2021-05-21T03:50:34.517943Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+mysqld: Table 'mysql.plugin' doesn't exist
+2021-05-21T03:50:36.953715Z 0 [ERROR] [MY-010735] [Server] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2021-05-21T03:50:36.987892Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2021-05-21T03:50:37.007654Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2021-05-21T03:50:37.144872Z 0 [Warning] [MY-010015] [Repl] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2021-05-21T03:50:37.160826Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-05-21T03:50:37.179499Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-05-21T03:50:37.180440Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2021-05-21T03:50:37.181117Z 0 [ERROR] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-001146 - Table 'mysql.component' doesn't exist
+2021-05-21T03:50:37.181608Z 0 [Warning] [MY-013129] [Server] A message intended for a client cannot be sent there as no client-session is attached. Therefore, we're sending the information to the error-log instead: MY-003543 - The mysql.component table is missing or has an incorrect definition.
+2021-05-21T03:50:37.182570Z 0 [ERROR] [MY-010326] [Server] Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
+2021-05-21T03:50:37.183984Z 0 [Warning] [MY-010952] [Server] The privilege system failed to initialize correctly. If you have upgraded your server, make sure you're executing mysql_upgrade to correct the issue.
+2021-05-21T03:50:37.184615Z 0 [Warning] [MY-010357] [Server] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2021-05-21T03:50:37.185512Z 0 [ERROR] [MY-010353] [Server] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2021-05-21T03:50:37.197933Z 0 [Warning] [MY-010405] [Repl] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2021-05-21T03:50:37.198473Z 0 [ERROR] [MY-010422] [Repl] Error in checking mysql.slave_master_info repository info type of TABLE.
+2021-05-21T03:50:37.198923Z 0 [ERROR] [MY-010415] [Repl] Error creating master info: Error checking repositories.
+2021-05-21T03:50:37.199291Z 0 [ERROR] [MY-010426] [Repl] Slave: Failed to initialize the master info structure for channel ''; its record may still be present in 'mysql.slave_master_info' table, consider deleting it.
+2021-05-21T03:50:37.199872Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2021-05-21T03:50:37.200823Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-05-21T03:50:37.219494Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
